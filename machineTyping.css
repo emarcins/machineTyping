@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.typing {
+    width: 50%;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+
+}
+.typing p {
+    margin: 0;
+    line-height: 150%
+}
+
+.typing p::before {
+    content: "> ";
+
+}
+.typing p:nth-last-of-type(1)::after {
+    content: "|";
+    animation: cursor .3s infinite /* alternate oznacza ze animacja po skończeniu się na 100%, zaczyna sie drugi raz od 100% do 0%/ (rules of working the alternate property) */
+    
+}
+
+@keyframes cursor {
+    0%, 30% {
+        opacity: 0;
+    }
+    70%, 100% {
+        opacity: 1;
+    }
+}

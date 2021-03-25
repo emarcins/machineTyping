@@ -1,5 +1,5 @@
 # machineTyping
-<br />
+
 #### Short script what helps you to enter text in machine typing style! :pencil:
 <br />
 

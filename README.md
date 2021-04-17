@@ -1,6 +1,6 @@
 # machineTyping
 
-### Short script what helps you to enter text in machine typing style! :pencil:
+### Short script what helps you to read the text in machine typing style! :pencil:
 <br />
 
 THIS CODE WAS WRITTEN WITH A HUGE HELP OF <br />
